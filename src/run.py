@@ -247,8 +247,8 @@ if __name__ == "__main__":
             for method_name in model_list:
 
                 print('train')
-                # for i in range(n_feature_start, n_feature_end+1):
-                for i in manual_f_num:
+                for i in range(n_feature_start, n_feature_end+1):
+                # for i in manual_f_num:
                     exp = Experiment(cancer, method_name, n_feature=i)
                     exp.load_model()
                     exp.load_data()
@@ -257,8 +257,8 @@ if __name__ == "__main__":
                 title = cancer+','+method_name+',dev,f1,f2,f3,f4,f5\n'
                 wFile.writelines(title)
                 print(method_name + ' show result')
-                # for i in range(n_feature_start, n_feature_end+1):
-                for i in manual_f_num:
+                for i in range(n_feature_start, n_feature_end+1):
+                # for i in manual_f_num:
                     exp = Experiment(cancer, method_name, n_feature=i)
                     out = ','.join(exp.get_aligned_result())
                     print(out)
