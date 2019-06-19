@@ -9,6 +9,15 @@ A Keras implementation of paper, :
 - Your contributions to the repo are always welcome. 
 Open an issue or contact me with E-mail `sspark@deargen.me`
 
+## Environment
+```
+python > 3.0.0
+tensorflow-gpu==1.4.0
+keras == 2.0.8
+xgboost == 0.90
+scikit-learn == 0.21.2
+```
+
 
 ## Usage
 
