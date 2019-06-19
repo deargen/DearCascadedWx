@@ -11,11 +11,12 @@ Open an issue or contact me with E-mail `sspark@deargen.me`
 
 ## Environment
 ```
-python > 3.0.0
-tensorflow-gpu==1.4.0
-keras == 2.0.8
+python == 3.6.8
+tensorflow-gpu == 1.10.0
+keras == 2.2.4
 xgboost == 0.90
 scikit-learn == 0.21.2
+lifelines == 0.21.3
 ```
 
 
